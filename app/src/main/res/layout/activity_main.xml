@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+
+android:gravity="center"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="kr.soen.networking.MainActivity"><TextView android:text="메세지를 입력하세요" android:layout_width="wrap_content" android:layout_height="wrap_content"/><EditText android:background="#fce1e1" android:id="@+id/etmsg" android:layout_width="match_parent" android:layout_height="wrap_content"/><Button android:text="Send!!!" android:onClick="onClick" android:layout_width="wrap_content" android:layout_height="wrap_content"/></LinearLayout>
